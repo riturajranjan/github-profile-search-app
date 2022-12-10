@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #22325c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+img.avatar {
+    height: 120px;
+    width: 120px;
+    
+    margin-right: 13px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    width: 600px;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+}
+.user_img{
+    float: left;
+
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+
+}
+ul li{
+    list-style: none;
+}
+.user-info {
+    line-height: 25px;
+}
+.repo {
+    text-decoration: none;
+    padding: 7px;
+    background-color: #ffffffd1;
+    display: inline-block;
+    margin: 6px;
+    margin-left: 0px;
+    border-radius: 21px;
+    color: #000;
+}
+#search {
+    padding: 14px;
+    margin: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 350px;
+    font-size: 18px;
+}
+#btn {
+    padding: 13px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    text-shadow: 0px 1px 2px #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
